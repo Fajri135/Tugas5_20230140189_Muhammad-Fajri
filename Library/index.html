@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>10 Game Terbaik Saya</title>
+  <style>
+    body {
+      background-color: #0e0e0e;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .table-wrapper {
+      width: 48%;
+      min-width: 500px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #1c1c1c;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    th, td {
+      padding: 16px 20px;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    th {
+      background-color: #2b2b2b;
+      color: #f0f0f0;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    tr {
+      transition: background-color 0.3s ease;
+    }
+
+    tr:hover {
+      background-color: #2a2a2a;
+    }
+
+    td img {
+      width: 70px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    td img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    }
+
+    td h3 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    td p {
+      margin: 6px 0 0;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    @media (max-width: 1100px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .table-wrapper {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>10 Game Terbaik Saya</h1>
+  <div class="container">
+    <!-- Kolom Kiri -->
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Gambar</th>
+            <th>Judul Game</th>
+            <th>Deskripsi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="images/Elden Ring.jpg" alt="Elden Ring"></td>
+            <td><h3>Elden Ring</h3></td>
+            <td><p>Eksplorasi dunia luas karya FromSoftware dengan tantangan berat dan misteri gelap.</p></td>
+          </tr>
+          <tr>
+            <td><img src="images/God Of War.jpg" alt="God of War"></td>
+            <td><h3>God of War</h3></td>
+            <td><p>Petualangan emosional Kratos & Atreus dalam mitologi Nordik.</p></td>
+          </tr>
+          <tr>
+            <td><img src="images/Red Dead Redemption II.jpg" alt="Red Dead Redemption II"></td>
+            <td><h3>Red Dead Redemption II</h3></td>
+            <td><p>Game koboi dengan cerita mendalam dan dunia sangat realistis.</p></td>
+          </tr>
+          <tr>
+            <td><img src="images/Persona 5 Personal.jpg" alt="Persona 5 Royal"></td>
+            <td><h3>Persona 5 Royal</h3></td>
+            <td><p>JRPG stylish tentang siswa SMA, keadilan, dan manajemen waktu harian.</p></td>
+          </tr>
+          <tr>
+            <td><img src="images/Hollow Knight.jpg" alt="Hollow Knight"></td>
+            <td><h3>Hollow Knight</h3></td>
+            <td><p>Metroidvania 2D dengan seni indah, eksplorasi bawah tanah, dan gameplay menantang.</p></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Kolom Kanan -->
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Gambar</th>
+            <th>Judul Game</th>
+            <th>Deskripsi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="images/The Witcher 3.jpg" alt="The Witcher 3"></td>
+            <td><h3>The Witcher 3: Wild Hunt</h3></td>
+            <td><p>RPG dengan cerita bercabang dan protagonis pemburu monster bernama Geralt.</p></td>
+          </tr>
+          <tr>
+            <td><img src="images/Sekiro.jpg" alt="Sekiro"></td>
+            <td><h3>Sekiro: Shadows Die Twice</h3></td>
+            <td><p>Aksi stealth dan pertarungan samurai di Jepang feodal dengan tingkat kesulitan tinggi.</p></td>
+          </tr>
+          <tr>
+            <td><img src="images/Ghost of Tsushima.jpg" alt="Ghost of Tsushima"></td>
+            <td><h3>Ghost of Tsushima</h3></td>
+            <td><p>Samurai open-world dengan budaya visual yang indah dan pertarungan katana sinematik.</p></td>
+          </tr>
+          <tr>
+            <td><img src="images/Bloodborne.jpg" alt="Bloodborne"></td>
+            <td><h3>Bloodborne</h3></td>
+            <td><p>Game horor aksi dengan atmosfer gothic dan sistem pertarungan brutal.</p></td>
+          </tr>
+          <tr>
+            <td><img src="images/Zelda BotW.jpg" alt="Zelda BotW"></td>
+            <td><h3>The Legend of Zelda: Breath of the Wild</h3></td>
+            <td><p>Petualangan eksploratif dari Nintendo dengan kebebasan tinggi dan puzzle lingkungan.</p></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
